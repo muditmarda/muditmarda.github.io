@@ -1,0 +1,159 @@
+#headerlist{
+	display: inline;
+	margin:3% auto; 
+	text-align:center;
+	list-style-type:none;
+}
+
+#headerli {
+  color: #FFF;
+  display: inline;
+  font-family: "Comic Sans Ms" ;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 100;
+  padding: 0 4%;
+  text-align:center;
+}
+
+
+
+a{
+	text-decoration:none;
+}
+
+a:link, a:visited{
+	color:white;
+	text-decoration:none;
+}
+
+a:hover, li:hover {
+  color: #DBE9EE;
+  text-decoration:none;
+}
+
+#tab:hover{
+	color:#777;
+}
+
+
+#header{
+	position:fixed;
+	background-color:#553D67;
+	width:100%;
+	padding:1.5%;
+	left:0px;
+	top:0px;
+	z-index:1000;
+	box-sizing: border-box;
+}
+
+#footer{
+	background-color:#444;
+	width:100%;
+	padding:.7%;
+	margin-top:3%; 	
+	color:#AAA;
+}
+
+ .description{
+	text-align:center; 
+ }
+
+#footer{
+	text-align:center; 
+ } 
+ 
+body{
+	background-color:#FFF;
+}
+
+#wholeBody{
+	padding-left:8%;
+	padding-right:8%;
+}
+
+#wholeBody1{
+	padding-left:8%;
+	/*padding-right:8%;*/
+	background-image: url("images/back3.jpg");
+	color: white;
+}
+
+#joker{
+	float: right;
+}
+
+.content{
+	padding-top: 9%;
+	
+}
+
+.contentbottom{
+	padding-bottom: 9%;
+}
+
+#button{
+	display:inline;
+	padding-right:3%;
+}
+
+
+.floated_img
+{
+    float: left;
+	display:block;
+	padding:2% 2% 0% 0;
+	margin:0;
+}
+
+
+
+#tab{
+	margin:0;
+	padding:4%;
+	top:0px;
+	display:inline;
+	color: #FFF;
+}
+
+.xyz{
+	padding-left: 8%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: red; /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
